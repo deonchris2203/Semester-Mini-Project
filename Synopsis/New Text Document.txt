@@ -1,0 +1,3 @@
+How can we understand what type content is available? 
+Can we learn the similarities between the content, how the suggestions are given to the user individually?
+Will it help content creators, Movie Makers, Film Makers learn the different aspects of people’s views about the current content available and also sentiment analysis helps to understand a user’s view better?
