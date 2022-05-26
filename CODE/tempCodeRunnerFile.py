@@ -1,0 +1,1 @@
+(canvas, text= "Exit", command= exit_program).pack()
