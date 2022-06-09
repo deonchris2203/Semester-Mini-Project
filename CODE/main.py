@@ -2,6 +2,7 @@ import numpy as np                      # linear algebra
 import pandas as pd                      # for data preparation
 import plotly.express as px                      # for data visualization
 from textblob import TextBlob                       # for sentiment analysis
+from tkinter import ttk
 from tkinter import *                       #GUI
 from tkinter import messagebox                      #GUI
 
@@ -139,5 +140,11 @@ b2.pack()
 b3.pack()  
 b4.pack()  
 b5.pack()
-  
+
+#Define a function for exit
+def exit_program():
+    top.destroy()
+
+#Create a button in canvas widget
+ttk.Button(top, text="Exit", command= exit_program).pack()
 top.mainloop()  
