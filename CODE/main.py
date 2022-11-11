@@ -101,6 +101,8 @@ def Top_Actors():
 def Sentiment():  
     messagebox.showinfo("Deon", "Sentiment Analysis Clicked \nPlease wait for the result to be displayed.")    
     #Sentiment Analysis
+
+    
     dfx=dff[['release_year','description']]
     dfx= dfx.rename(columns={'release_year':'Release Year'})
     for index,row in dfx.iterrows():
